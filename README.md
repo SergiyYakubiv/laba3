@@ -1,4 +1,16 @@
 # This is my Lab №3
-The difference of arrays
-Implement an array difference function that subtracts one array from another and returns the result.
-You must remove all values from list a that are in list b, keeping them in order. If the value is in b, all its occurrences must be removed from the other.
+Repository to send my laboratory works
+
+
+Task for Laboratory work 3: Скласти блок-схему алгоритму та програму мовою Cі згідно з варіантом, отриманим від викладача, виконати відповідне завдання за табл. 1. Відповідний алгоритм оформити у вигляді функції; вхідні дані вводити з клавіатури, або з файла; програма повинна вивести на екран отриману матрицю.
+
+# Різниця масивів
+ 
+Реалізувати функцію різниці масивів, яка віднімає один масив з іншого і повертає результат.
+
+
+Потрібно видалити всі значення зі списку a, які є у списку b, зберігаючи їх порядок. Якщо значення є в b, усі його входження повинні бути видалені з іншого:
+Приклад прототипу:
+
+
+int *array_diff(const int *arr1, size_t n1, const int *arr2, size_t n2)
