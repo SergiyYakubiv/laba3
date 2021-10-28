@@ -29,4 +29,4 @@ void main()
     array_diff(arr1, n1, arr2, n2, arr3);
     for (int i = 0; i < n3; ++i)
         printf("%d\n", arr3[i]);
-}
+};
