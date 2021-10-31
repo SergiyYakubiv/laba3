@@ -3,16 +3,16 @@
 
 void array_diff(const int* arr1, size_t n1, const int* arr2, size_t n2, int* arr3)
 {
-    int b;
+    int b;  // integer 0 or 1.
     for (int i = 0, n = 0; i < n1; ++i)
     {
-        b = 1;
+        b = 1; 
         for (int j = 0; j < n2; ++j)
         {
             if (arr1[i] == arr2[j])
                 b = 0;
         }
-        if (b)
+        if (b) // if the element of the first array that is currently iterated is not in the second array, then write this element in the result array.
         {
             arr3[n] = arr1[i];
             ++n;
